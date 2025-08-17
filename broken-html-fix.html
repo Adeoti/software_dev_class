@@ -1,11 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <titleMy Portfolio</title>
+    <link rel="stylesheet href="styles.css">
 </head>
+
 <body>
-    
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">Home</a>
+            <li><a href="#about">About<a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</li>
+        </ul>
+    </nav>
+
+    <!-- Header Section -->
+    <header id="home">
+        <h1>Welcome to My Portfolio</h1>
+        <p>Hi, I'm John Doe, a aspiring <strong>Web Developer<p>
+        <button>See My Work</button>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me<h2>
+        <p>I love building website and learning new technlogies<p>
+        <ul>
+            <li>HTML<li>
+            <liCSS<li>
+            <li>JavaScript</li>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project One<h3>
+            <p>This is my first project where I created a todo app</p>
+        </div>
+        <div class="project">
+            <h3>Project Two</h3>
+            <p>This is my <em>second</em> project about a portfolio
+        </div>
+        <div class="project">
+            <h3>Project Three</h3>
+            <p>This project is broken on purpose so you can fix</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <form>
+            <label>Name</label>
+            <input type="text" name="name">
+            
+            <label>Email</label>
+            <input type="email" name=email>
+            
+            <label>Message</label>
+            <textarea></textarea>
+            
+            <button type="submit">Send</buton>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 John Doe. All rights reservd<p>
+    </footer>
+
 </body>
 </html>
